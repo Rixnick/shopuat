@@ -893,12 +893,23 @@ li {
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
 }
 
-.sponsor__layouts {
-    max-width: 155rem;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+.brand__layouts img {
+    height: 100%;
+    width: 100%;
 }
 
+.sponsor__layouts {
+    max-width: 150rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+}
+
+
+.sponsor__layouts img {
+    background-color: var(--white);
+    height: 100%px;
+    width: 100px;   
+}
 /* FOOTER */
 
 .footer {

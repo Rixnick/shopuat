@@ -1,5 +1,4 @@
 import React, { ReactElement } from 'react';
-import Products from '../../components/Products';
 
 interface Props {
   
@@ -8,7 +7,7 @@ interface Props {
 export default function ProductsPage({}: Props): ReactElement {
   return (
     <div>
-      <Products />
+        <h1>Products page</h1>
     </div>
   )
 }

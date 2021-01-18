@@ -743,58 +743,72 @@ const Home = () => {
         </section>
         {/* Branding Section */}
         <section className="section brands">
-            <div className="title">
-            <h2>Product Brands</h2>
-            <span>Select from the premium product and save plenty money</span>
-            </div>
-            <div className="brand__layouts container">
-            <div className="brand_logo">
-                <img src="/assets/images/brand1.png" alt="" />
-            </div>
-            <div className="brand_logo">
-                <img src="/assets/images/brand2.png" alt="" />
-            </div>
-            <div className="brand_logo">
-                <img src="/assets/images/brand3.png" alt="" />
-            </div>
-            <div className="brand_logo">
-                <img src="/assets/images/brand4.png" alt="" />
-            </div>
-            <div className="brand_logo">
-                <img src="/assets/images/brand5.png" alt="" />
-            </div>
-            <div className="brand_logo">
-                <img src="/assets/images/brand6.png" alt="" />
-            </div>
-            {/* <div class="brand_logo">
+                <div className="title">
+                    <h2>Brands Collection</h2>
+                    <span>Select from the premium product and save plenty money</span>
+                </div>
+                <div className="brand__layouts container">
+                    <div className="brand_logo">
+                        <img src="https://res.cloudinary.com/swizce/image/upload/v1610534022/brand4_rrdzru.png" alt="" />
+                    </div>
+                    <div className="brand_logo">
+                        <img src="https://res.cloudinary.com/swizce/image/upload/v1610534022/brand2_vwi6l4.png" alt="" />
+                    </div>
+                    <div className="brand_logo">
+                        <img src="https://res.cloudinary.com/swizce/image/upload/v1610534022/brand3_gp5dva.png" alt="" />
+                    </div>
+                    <div className="brand_logo">
+                        <img src="https://res.cloudinary.com/swizce/image/upload/v1610534022/brand3_gp5dva.png" alt="" />
+                    </div>
+                    <div className="brand_logo">
+                        <img src="https://res.cloudinary.com/swizce/image/upload/v1610534022/brand1_ezhwzl.png" alt="" />
+                    </div>
+                    <div className="brand_logo">
+                        <img src="https://res.cloudinary.com/swizce/image/upload/v1610534022/brand5_w7sksl.png" alt="" />
+                    </div>
+
+
+                    {/* <div class="brand_logo">
                 <img src="/assets/images/brand7.png" alt=""="">
             </div> */}
-            </div>
-        </section>
+                </div>
+            </section>
         {/* Sponsor Section */}
         <section className="section sponsor">
             <div className="title">
-            <h2>Our Partner</h2>
+            <h2>Our Sponsor</h2>
             <span>Select from the premium product and save plenty money</span>
             </div>
             <div className="sponsor__layouts container">
             <div className="brand_logo">
-                <img src="/assets/images/brand1.png" alt="" />
+                <img src="https://res.cloudinary.com/swizce/image/upload/v1610950189/New/ptt_oreulb.jpg" alt="" />
             </div>
             <div className="brand_logo">
-                <img src="/assets/images/brand2.png" alt="" />
+                <img src="https://res.cloudinary.com/swizce/image/upload/v1610950188/New/logo_n_wyv9yu.jpg" alt="" />
             </div>
             <div className="brand_logo">
-                <img src="/assets/images/brand3.png" alt="" />
+                <img src="https://res.cloudinary.com/swizce/image/upload/v1610950188/New/LTC_logo_sign_suh03r.png" alt="" />
             </div>
             <div className="brand_logo">
-                <img src="/assets/images/brand4.png" alt="" />
+                <img src="https://res.cloudinary.com/swizce/image/upload/v1610950188/New/ECME_Logo_jehzxt.png" alt="" />
             </div>
             <div className="brand_logo">
-                <img src="/assets/images/brand5.png" alt="" />
+                <img src="https://res.cloudinary.com/swizce/image/upload/v1610950188/New/sacombank_w0a50d.jpg" alt="" />
             </div>
             <div className="brand_logo">
-                <img src="/assets/images/brand6.png" alt="" />
+                <img src="https://res.cloudinary.com/swizce/image/upload/v1610950188/New/IizxahMNJxNnO2LmdBXqYIwyDJoWAfbaGzXlZgnX_wj8iwb.png" alt="" />
+            </div>
+            <div className="brand_logo">
+                <img src="https://res.cloudinary.com/swizce/image/upload/v1610950187/New/2-4_uasdql.png" alt="" />
+            </div>
+            <div className="brand_logo">
+                <img src="https://res.cloudinary.com/swizce/image/upload/v1610950188/New/images_zfrpcd.jpg" alt="" />
+            </div>
+            <div className="brand_logo">
+                <img src="https://res.cloudinary.com/swizce/image/upload/v1610950187/New/a95ec5fde2b841c082b05f676290307f_zfyahu.jpg" alt="" />
+            </div>
+            <div className="brand_logo">
+                <img src="https://res.cloudinary.com/swizce/image/upload/v1610950187/New/images_k8spru.png" alt="" />
             </div>
             </div>
         </section>
