@@ -170,280 +170,408 @@ const Home = () => {
             </div>
         </section>
         {/* Product Section */}
-        <section className="section products">
-            <div className="title">
-            <h2>New Products</h2>
-            <span>Select from the premiumproduct and save plenty money</span>
+         {/* Trending Product */}
+      <section className="section products">
+        <div className="title">
+          <h2>New Trending</h2>
+          <span>Select from the premiumproduct and save plenty money</span>
+        </div>
+        <div className="product__layouts">
+          <div className="product">
+            <div className="img__container">
+              <img
+                src="https://res.cloudinary.com/swizce/image/upload/v1617677878/products_tem/product1_dv47mm_xomn9y.jpg"
+                alt=""
+              />
+              <div className="addCart">
+                <i className="ti-shopping-cart" />
+              </div>
+              <ul className="side__icons">
+                <span>
+                  <i className="ti-search" />
+                </span>
+                <span>
+                  <i className="ti-heart" />
+                </span>
+                <span>
+                  <i className="ti-layout-slider" />
+                </span>
+              </ul>
             </div>
-            <div className="product__layouts">
-            <div className="product">
-                <div className="img__container">
-                <img src="https://res.cloudinary.com/swizce/image/upload/v1610533570/product1_izeg8n.jpg" alt="" />
-                <div className="addCart">
-                    <i className="ti-shopping-cart" />
-                </div>
-                <ul className="side__icons">
-                    <span><i className="ti-search" /></span>
-                    <span><i className="ti-heart" /></span>
-                    <span><i className="ti-layout-slider" /></span>
-                </ul>
-                </div>
-                <div className="bottom">
-                <a href="#">Bambi Print Mini Backpack</a>
-                <div className="price">
-                    <span>$150</span>
-                </div>
-                </div>
+            <div className="bottom">
+              <a href="#">Bambi Print Mini Backpack</a>
+              <div className="price">
+                <span>$150</span>
+              </div>
             </div>
-            <div className="product">
-                <div className="img__container">
-                <img src="https://res.cloudinary.com/swizce/image/upload/v1610534026/product14_fxegrl.jpg" alt="" />
-                <div className="addCart">
-                    <i className="ti-shopping-cart" />
-                </div>
-                <ul className="side__icons">
-                    <span><i className="ti-search" /></span>
-                    <span><i className="ti-heart" /></span>
-                    <span><i className="ti-layout-slider" /></span>
-                </ul>
-                </div>
-                <div className="bottom">
-                <a href="#">Bambi Print Mini Backpack</a>
-                <div className="price">
-                    <span>$150</span>
-                </div>
-                </div>
+          </div>
+          <div className="product">
+            <div className="img__container">
+              <img
+                src="https://res.cloudinary.com/swizce/image/upload/v1617677878/products_tem/product14_cnjfod_hq5dap.jpg"
+                alt=""
+              />
+              <div className="addCart">
+                <i className="ti-shopping-cart" />
+              </div>
+              <ul className="side__icons">
+                <span>
+                  <i className="ti-search" />
+                </span>
+                <span>
+                  <i className="ti-heart" />
+                </span>
+                <span>
+                  <i className="ti-layout-slider" />
+                </span>
+              </ul>
             </div>
-            <div className="product">
-                <div className="img__container">
-                <img src="https://res.cloudinary.com/swizce/image/upload/v1610534027/product13_jeocrb.jpg" alt="" />
-                <div className="addCart">
-                    <i className="ti-shopping-cart" />
-                </div>
-                <ul className="side__icons">
-                    <span><i className="ti-search" /></span>
-                    <span><i className="ti-heart" /></span>
-                    <span><i className="ti-layout-slider" /></span>
-                </ul>
-                </div>
-                <div className="bottom">
-                <a href="#">Bambi Print Mini Backpack</a>
-                <div className="price">
-                    <span>$150</span>
-                </div>
-                </div>
+            <div className="bottom">
+              <a href="#">Bambi Print Mini Backpack</a>
+              <div className="price">
+                <span>$150</span>
+              </div>
             </div>
-            <div className="product">
-                <div className="img__container">
-                <img src="https://res.cloudinary.com/swizce/image/upload/v1610534026/product11_smupbk.jpg" alt="" />
-                <div className="addCart">
-                    <i className="ti-shopping-cart" />
-                </div>
-                <ul className="side__icons">
-                    <span><i className="ti-search" /></span>
-                    <span><i className="ti-heart" /></span>
-                    <span><i className="ti-layout-slider" /></span>
-                </ul>
-                </div>
-                <div className="bottom">
-                <a href="#">Bambi Print Mini Backpack</a>
-                <div className="price">
-                    <span>$150</span>
-                </div>
-                </div>
+          </div>
+          <div className="product">
+            <div className="img__container">
+              <img
+                src="https://res.cloudinary.com/swizce/image/upload/v1617677878/products_tem/product13_vekz3w_frn3lu.jpg"
+                alt=""
+              />
+              <div className="addCart">
+                <i className="ti-shopping-cart" />
+              </div>
+              <ul className="side__icons">
+                <span>
+                  <i className="ti-search" />
+                </span>
+                <span>
+                  <i className="ti-heart" />
+                </span>
+                <span>
+                  <i className="ti-layout-slider" />
+                </span>
+              </ul>
             </div>
-            <div className="product">
-                <div className="img__container">
-                <img src="https://res.cloudinary.com/swizce/image/upload/v1610534025/product5_hb1iim.jpg" alt="" />
-                <div className="addCart">
-                    <i className="ti-shopping-cart" />
-                </div>
-                <ul className="side__icons">
-                    <span><i className="ti-search" /></span>
-                    <span><i className="ti-heart" /></span>
-                    <span><i className="ti-layout-slider" /></span>
-                </ul>
-                </div>
-                <div className="bottom">
-                <a href="#">Bambi Print Mini Backpack</a>
-                <div className="price">
-                    <span>$150</span>
-                </div>
-                </div>
+            <div className="bottom">
+              <a href="#">Bambi Print Mini Backpack</a>
+              <div className="price">
+                <span>$150</span>
+              </div>
             </div>
-            <div className="product">
-                <div className="img__container">
-                <img src="https://res.cloudinary.com/swizce/image/upload/v1610534025/product4_rnvclc.jpg" alt="" />
-                <div className="addCart">
-                    <i className="ti-shopping-cart" />
-                </div>
-                <ul className="side__icons">
-                    <span><i className="ti-search" /></span>
-                    <span><i className="ti-heart" /></span>
-                    <span><i className="ti-layout-slider" /></span>
-                </ul>
-                </div>
-                <div className="bottom">
-                <a href="#">Bambi Print Mini Backpack</a>
-                <div className="price">
-                    <span>$150</span>
-                </div>
-                </div>
+          </div>
+          <div className="product">
+            <div className="img__container">
+              <img
+                src="https://res.cloudinary.com/swizce/image/upload/v1617677878/products_tem/product11_kxqazq_asnubu.jpg"
+                alt=""
+              />
+              <div className="addCart">
+                <i className="ti-shopping-cart" />
+              </div>
+              <ul className="side__icons">
+                <span>
+                  <i className="ti-search" />
+                </span>
+                <span>
+                  <i className="ti-heart" />
+                </span>
+                <span>
+                  <i className="ti-layout-slider" />
+                </span>
+              </ul>
             </div>
-            <div className="product">
-                <div className="img__container">
-                <img src="https://res.cloudinary.com/swizce/image/upload/v1610534024/product6_ridrxd.jpg" alt="" />
-                <div className="addCart">
-                    <i className="ti-shopping-cart" />
-                </div>
-                <ul className="side__icons">
-                    <span><i className="ti-search" /></span>
-                    <span><i className="ti-heart" /></span>
-                    <span><i className="ti-layout-slider" /></span>
-                </ul>
-                </div>
-                <div className="bottom">
-                <a href="#">Bambi Print Mini Backpack</a>
-                <div className="price">
-                    <span>$150</span>
-                </div>
-                </div>
+            <div className="bottom">
+              <a href="#">Bambi Print Mini Backpack</a>
+              <div className="price">
+                <span>$150</span>
+              </div>
             </div>
-            <div className="product">
-                <div className="img__container">
-                <img src="https://res.cloudinary.com/swizce/image/upload/v1610533570/product7_jfkluc.jpg" alt="" />
-                <div className="addCart">
-                    <i className="ti-shopping-cart" />
-                </div>
-                <ul className="side__icons">
-                    <span><i className="ti-search" /></span>
-                    <span><i className="ti-heart" /></span>
-                    <span><i className="ti-layout-slider" /></span>
-                </ul>
-                </div>
-                <div className="bottom">
-                <a href="#">Bambi Print Mini Backpack</a>
-                <div className="price">
-                    <span>$150</span>
-                </div>
-                </div>
+          </div>
+          <div className="product">
+            <div className="img__container">
+              <img
+                src="https://res.cloudinary.com/swizce/image/upload/v1617677878/products_tem/product9_jryhmf_z7ryvu.jpg"
+                alt=""
+              />
+              <div className="addCart">
+                <i className="ti-shopping-cart" />
+              </div>
+              <ul className="side__icons">
+                <span>
+                  <i className="ti-search" />
+                </span>
+                <span>
+                  <i className="ti-heart" />
+                </span>
+                <span>
+                  <i className="ti-layout-slider" />
+                </span>
+              </ul>
             </div>
-            <div className="product">
-                <div className="img__container">
-                <img src="https://res.cloudinary.com/swizce/image/upload/v1610534026/product10_nv4hj3.jpg" alt="" />
-                <div className="addCart">
-                    <i className="ti-shopping-cart" />
-                </div>
-                <ul className="side__icons">
-                    <span><i className="ti-search" /></span>
-                    <span><i className="ti-heart" /></span>
-                    <span><i className="ti-layout-slider" /></span>
-                </ul>
-                </div>
-                <div className="bottom">
-                <a href="#">Bambi Print Mini Backpack</a>
-                <div className="price">
-                    <span>$150</span>
-                </div>
-                </div>
+            <div className="bottom">
+              <a href="#">Bambi Print Mini Backpack</a>
+              <div className="price">
+                <span>$150</span>
+              </div>
             </div>
-            <div className="product">
-                <div className="img__container">
-                <img src="https://res.cloudinary.com/swizce/image/upload/v1610534026/product14_fxegrl.jpg" alt="" />
-                <div className="addCart">
-                    <i className="ti-shopping-cart" />
-                </div>
-                <ul className="side__icons">
-                    <span><i className="ti-search" /></span>
-                    <span><i className="ti-heart" /></span>
-                    <span><i className="ti-layout-slider" /></span>
-                </ul>
-                </div>
-                <div className="bottom">
-                <a href="#">Bambi Print Mini Backpack</a>
-                <div className="price">
-                    <span>$150</span>
-                </div>
-                </div>
+          </div>
+          <div className="product">
+            <div className="img__container">
+              <img
+                src="https://res.cloudinary.com/swizce/image/upload/v1617677878/products_tem/product3_uz8mxd_z01epu.jpg"
+                alt=""
+              />
+              <div className="addCart">
+                <i className="ti-shopping-cart" />
+              </div>
+              <ul className="side__icons">
+                <span>
+                  <i className="ti-search" />
+                </span>
+                <span>
+                  <i className="ti-heart" />
+                </span>
+                <span>
+                  <i className="ti-layout-slider" />
+                </span>
+              </ul>
             </div>
-            <div className="product">
-                <div className="img__container">
-                <img src="https://res.cloudinary.com/swizce/image/upload/v1610534025/product5_hb1iim.jpg" alt="" />
-                <div className="addCart">
-                    <i className="ti-shopping-cart" />
-                </div>
-                <ul className="side__icons">
-                    <span><i className="ti-search" /></span>
-                    <span><i className="ti-heart" /></span>
-                    <span><i className="ti-layout-slider" /></span>
-                </ul>
-                </div>
-                <div className="bottom">
-                <a href="#">Bambi Print Mini Backpack</a>
-                <div className="price">
-                    <span>$150</span>
-                </div>
-                </div>
+            <div className="bottom">
+              <a href="#">Bambi Print Mini Backpack</a>
+              <div className="price">
+                <span>$150</span>
+              </div>
             </div>
-            <div className="product">
-                <div className="img__container">
-                <img src="https://res.cloudinary.com/swizce/image/upload/v1610534024/product2_rnywnk.jpg" alt="" />
-                <div className="addCart">
-                    <i className="ti-shopping-cart" />
-                </div>
-                <ul className="side__icons">
-                    <span><i className="ti-search" /></span>
-                    <span><i className="ti-heart" /></span>
-                    <span><i className="ti-layout-slider" /></span>
-                </ul>
-                </div>
-                <div className="bottom">
-                <a href="#">Bambi Print Mini Backpack</a>
-                <div className="price">
-                    <span>$150</span>
-                </div>
-                </div>
+          </div>
+          <div className="product">
+            <div className="img__container">
+              <img
+                src="https://res.cloudinary.com/swizce/image/upload/v1617677878/products_tem/product7_jfkluc_ffddxe.jpg"
+                alt=""
+              />
+              <div className="addCart">
+                <i className="ti-shopping-cart" />
+              </div>
+              <ul className="side__icons">
+                <span>
+                  <i className="ti-search" />
+                </span>
+                <span>
+                  <i className="ti-heart" />
+                </span>
+                <span>
+                  <i className="ti-layout-slider" />
+                </span>
+              </ul>
             </div>
-            <div className="product">
-                <div className="img__container">
-                <img src="https://res.cloudinary.com/swizce/image/upload/v1610534026/product10_nv4hj3.jpg" alt="" />
-                <div className="addCart">
-                    <i className="ti-shopping-cart" />
-                </div>
-                <ul className="side__icons">
-                    <span><i className="ti-search" /></span>
-                    <span><i className="ti-heart" /></span>
-                    <span><i className="ti-layout-slider" /></span>
-                </ul>
-                </div>
-                <div className="bottom">
-                <a href="#">Bambi Print Mini Backpack</a>
-                <div className="price">
-                    <span>$150</span>
-                </div>
-                </div>
+            <div className="bottom">
+              <a href="#">Bambi Print Mini Backpack</a>
+              <div className="price">
+                <span>$150</span>
+              </div>
             </div>
-            <div className="product">
-                <div className="img__container">
-                <img src="https://res.cloudinary.com/swizce/image/upload/v1610534026/product12_aznyjk.jpg" alt="" />
-                <div className="addCart">
-                    <i className="ti-shopping-cart" />
-                </div>
-                <ul className="side__icons">
-                    <span><i className="ti-search" /></span>
-                    <span><i className="ti-heart" /></span>
-                    <span><i className="ti-layout-slider" /></span>
-                </ul>
-                </div>
-                <div className="bottom">
-                <a href="#">Bambi Print Mini Backpack</a>
-                <div className="price">
-                    <span>$150</span>
-                </div>
-                </div>
+          </div>
+          <div className="product">
+            <div className="img__container">
+              <img
+                src="https://res.cloudinary.com/swizce/image/upload/v1617677877/products_tem/product2_r8ts6g_lpob0m.jpg"
+                alt=""
+              />
+              <div className="addCart">
+                <i className="ti-shopping-cart" />
+              </div>
+              <ul className="side__icons">
+                <span>
+                  <i className="ti-search" />
+                </span>
+                <span>
+                  <i className="ti-heart" />
+                </span>
+                <span>
+                  <i className="ti-layout-slider" />
+                </span>
+              </ul>
             </div>
+            <div className="bottom">
+              <a href="#">Bambi Print Mini Backpack</a>
+              <div className="price">
+                <span>$150</span>
+              </div>
             </div>
-        </section>
+          </div>
+          <div className="product">
+            <div className="img__container">
+              <img
+                src="https://res.cloudinary.com/swizce/image/upload/v1617677877/products_tem/product5_ndgvhn_nmn9f7.jpg"
+                alt=""
+              />
+              <div className="addCart">
+                <i className="ti-shopping-cart" />
+              </div>
+              <ul className="side__icons">
+                <span>
+                  <i className="ti-search" />
+                </span>
+                <span>
+                  <i className="ti-heart" />
+                </span>
+                <span>
+                  <i className="ti-layout-slider" />
+                </span>
+              </ul>
+            </div>
+            <div className="bottom">
+              <a href="#">Bambi Print Mini Backpack</a>
+              <div className="price">
+                <span>$150</span>
+              </div>
+            </div>
+          </div>
+          <div className="product">
+            <div className="img__container">
+              <img
+                src="https://res.cloudinary.com/swizce/image/upload/v1617677877/products_tem/product10_oplnhc_sc5lpp.jpg"
+                alt=""
+              />
+              <div className="addCart">
+                <i className="ti-shopping-cart" />
+              </div>
+              <ul className="side__icons">
+                <span>
+                  <i className="ti-search" />
+                </span>
+                <span>
+                  <i className="ti-heart" />
+                </span>
+                <span>
+                  <i className="ti-layout-slider" />
+                </span>
+              </ul>
+            </div>
+            <div className="bottom">
+              <a href="#">Bambi Print Mini Backpack</a>
+              <div className="price">
+                <span>$150</span>
+              </div>
+            </div>
+          </div>
+          <div className="product">
+            <div className="img__container">
+              <img
+                src="https://res.cloudinary.com/swizce/image/upload/v1617677877/products_tem/product10_oplnhc_sc5lpp.jpg"
+                alt=""
+              />
+              <div className="addCart">
+                <i className="ti-shopping-cart" />
+              </div>
+              <ul className="side__icons">
+                <span>
+                  <i className="ti-search" />
+                </span>
+                <span>
+                  <i className="ti-heart" />
+                </span>
+                <span>
+                  <i className="ti-layout-slider" />
+                </span>
+              </ul>
+            </div>
+            <div className="bottom">
+              <a href="#">Bambi Print Mini Backpack</a>
+              <div className="price">
+                <span>$150</span>
+              </div>
+            </div>
+          </div>
+          <div className="product">
+            <div className="img__container">
+              <img
+                src="https://res.cloudinary.com/swizce/image/upload/v1617677877/products_tem/product4_qixtdj_st9kdr.jpg"
+                alt=""
+              />
+              <div className="addCart">
+                <i className="ti-shopping-cart" />
+              </div>
+              <ul className="side__icons">
+                <span>
+                  <i className="ti-search" />
+                </span>
+                <span>
+                  <i className="ti-heart" />
+                </span>
+                <span>
+                  <i className="ti-layout-slider" />
+                </span>
+              </ul>
+            </div>
+            <div className="bottom">
+              <a href="#">Bambi Print Mini Backpack</a>
+              <div className="price">
+                <span>$150</span>
+              </div>
+            </div>
+          </div>
+          <div className="product">
+            <div className="img__container">
+              <img
+                src="https://res.cloudinary.com/swizce/image/upload/v1617677877/products_tem/product12_aznyjk_bgwzaa.jpg"
+                alt=""
+              />
+              <div className="addCart">
+                <i className="ti-shopping-cart" />
+              </div>
+              <ul className="side__icons">
+                <span>
+                  <i className="ti-search" />
+                </span>
+                <span>
+                  <i className="ti-heart" />
+                </span>
+                <span>
+                  <i className="ti-layout-slider" />
+                </span>
+              </ul>
+            </div>
+            <div className="bottom">
+              <a href="#">Bambi Print Mini Backpack</a>
+              <div className="price">
+                <span>$150</span>
+              </div>
+            </div>
+          </div>
+          <div className="product">
+            <div className="img__container">
+              <img
+                src="https://res.cloudinary.com/swizce/image/upload/v1617677877/products_tem/product8_d9zy51_egsqbm.jpg"
+                alt=""
+              />
+              <div className="addCart">
+                <i className="ti-shopping-cart" />
+              </div>
+              <ul className="side__icons">
+                <span>
+                  <i className="ti-search" />
+                </span>
+                <span>
+                  <i className="ti-heart" />
+                </span>
+                <span>
+                  <i className="ti-layout-slider" />
+                </span>
+              </ul>
+            </div>
+            <div className="bottom">
+              <a href="#">Bambi Print Mini Backpack</a>
+              <div className="price">
+                <span>$150</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
         {/* Advert Section */}
         <section className="section advert">
             <div className="advert__layouts">
@@ -466,281 +594,408 @@ const Home = () => {
             </div>
         </section>
         {/* Trending Product */}
-
-        <section className="section products">
-            <div className="title">
-            <h2>New Trending</h2>
-            <span>Select from the premiumproduct and save plenty money</span>
+         {/* Trending Product */}
+      <section className="section products">
+        <div className="title">
+          <h2>New Trending</h2>
+          <span>Select from the premiumproduct and save plenty money</span>
+        </div>
+        <div className="product__layouts">
+          <div className="product">
+            <div className="img__container">
+              <img
+                src="https://res.cloudinary.com/swizce/image/upload/v1617677878/products_tem/product1_dv47mm_xomn9y.jpg"
+                alt=""
+              />
+              <div className="addCart">
+                <i className="ti-shopping-cart" />
+              </div>
+              <ul className="side__icons">
+                <span>
+                  <i className="ti-search" />
+                </span>
+                <span>
+                  <i className="ti-heart" />
+                </span>
+                <span>
+                  <i className="ti-layout-slider" />
+                </span>
+              </ul>
             </div>
-            <div className="product__layouts">
-            <div className="product">
-                <div className="img__container">
-                <img src="https://res.cloudinary.com/swizce/image/upload/v1610533570/product1_izeg8n.jpg" alt="" />
-                <div className="addCart">
-                    <i className="ti-shopping-cart" />
-                </div>
-                <ul className="side__icons">
-                    <span><i className="ti-search" /></span>
-                    <span><i className="ti-heart" /></span>
-                    <span><i className="ti-layout-slider" /></span>
-                </ul>
-                </div>
-                <div className="bottom">
-                <a href="#">Bambi Print Mini Backpack</a>
-                <div className="price">
-                    <span>$150</span>
-                </div>
-                </div>
+            <div className="bottom">
+              <a href="#">Bambi Print Mini Backpack</a>
+              <div className="price">
+                <span>$150</span>
+              </div>
             </div>
-            <div className="product">
-                <div className="img__container">
-                <img src="https://res.cloudinary.com/swizce/image/upload/v1610534026/product14_fxegrl.jpg" alt="" />
-                <div className="addCart">
-                    <i className="ti-shopping-cart" />
-                </div>
-                <ul className="side__icons">
-                    <span><i className="ti-search" /></span>
-                    <span><i className="ti-heart" /></span>
-                    <span><i className="ti-layout-slider" /></span>
-                </ul>
-                </div>
-                <div className="bottom">
-                <a href="#">Bambi Print Mini Backpack</a>
-                <div className="price">
-                    <span>$150</span>
-                </div>
-                </div>
+          </div>
+          <div className="product">
+            <div className="img__container">
+              <img
+                src="https://res.cloudinary.com/swizce/image/upload/v1617677878/products_tem/product14_cnjfod_hq5dap.jpg"
+                alt=""
+              />
+              <div className="addCart">
+                <i className="ti-shopping-cart" />
+              </div>
+              <ul className="side__icons">
+                <span>
+                  <i className="ti-search" />
+                </span>
+                <span>
+                  <i className="ti-heart" />
+                </span>
+                <span>
+                  <i className="ti-layout-slider" />
+                </span>
+              </ul>
             </div>
-            <div className="product">
-                <div className="img__container">
-                <img src="https://res.cloudinary.com/swizce/image/upload/v1610534027/product13_jeocrb.jpg" alt="" />
-                <div className="addCart">
-                    <i className="ti-shopping-cart" />
-                </div>
-                <ul className="side__icons">
-                    <span><i className="ti-search" /></span>
-                    <span><i className="ti-heart" /></span>
-                    <span><i className="ti-layout-slider" /></span>
-                </ul>
-                </div>
-                <div className="bottom">
-                <a href="#">Bambi Print Mini Backpack</a>
-                <div className="price">
-                    <span>$150</span>
-                </div>
-                </div>
+            <div className="bottom">
+              <a href="#">Bambi Print Mini Backpack</a>
+              <div className="price">
+                <span>$150</span>
+              </div>
             </div>
-            <div className="product">
-                <div className="img__container">
-                <img src="https://res.cloudinary.com/swizce/image/upload/v1610534026/product11_smupbk.jpg" alt="" />
-                <div className="addCart">
-                    <i className="ti-shopping-cart" />
-                </div>
-                <ul className="side__icons">
-                    <span><i className="ti-search" /></span>
-                    <span><i className="ti-heart" /></span>
-                    <span><i className="ti-layout-slider" /></span>
-                </ul>
-                </div>
-                <div className="bottom">
-                <a href="#">Bambi Print Mini Backpack</a>
-                <div className="price">
-                    <span>$150</span>
-                </div>
-                </div>
+          </div>
+          <div className="product">
+            <div className="img__container">
+              <img
+                src="https://res.cloudinary.com/swizce/image/upload/v1617677878/products_tem/product13_vekz3w_frn3lu.jpg"
+                alt=""
+              />
+              <div className="addCart">
+                <i className="ti-shopping-cart" />
+              </div>
+              <ul className="side__icons">
+                <span>
+                  <i className="ti-search" />
+                </span>
+                <span>
+                  <i className="ti-heart" />
+                </span>
+                <span>
+                  <i className="ti-layout-slider" />
+                </span>
+              </ul>
             </div>
-            <div className="product">
-                <div className="img__container">
-                <img src="https://res.cloudinary.com/swizce/image/upload/v1610534025/product5_hb1iim.jpg" alt="" />
-                <div className="addCart">
-                    <i className="ti-shopping-cart" />
-                </div>
-                <ul className="side__icons">
-                    <span><i className="ti-search" /></span>
-                    <span><i className="ti-heart" /></span>
-                    <span><i className="ti-layout-slider" /></span>
-                </ul>
-                </div>
-                <div className="bottom">
-                <a href="#">Bambi Print Mini Backpack</a>
-                <div className="price">
-                    <span>$150</span>
-                </div>
-                </div>
+            <div className="bottom">
+              <a href="#">Bambi Print Mini Backpack</a>
+              <div className="price">
+                <span>$150</span>
+              </div>
             </div>
-            <div className="product">
-                <div className="img__container">
-                <img src="https://res.cloudinary.com/swizce/image/upload/v1610534025/product4_rnvclc.jpg" alt="" />
-                <div className="addCart">
-                    <i className="ti-shopping-cart" />
-                </div>
-                <ul className="side__icons">
-                    <span><i className="ti-search" /></span>
-                    <span><i className="ti-heart" /></span>
-                    <span><i className="ti-layout-slider" /></span>
-                </ul>
-                </div>
-                <div className="bottom">
-                <a href="#">Bambi Print Mini Backpack</a>
-                <div className="price">
-                    <span>$150</span>
-                </div>
-                </div>
+          </div>
+          <div className="product">
+            <div className="img__container">
+              <img
+                src="https://res.cloudinary.com/swizce/image/upload/v1617677878/products_tem/product11_kxqazq_asnubu.jpg"
+                alt=""
+              />
+              <div className="addCart">
+                <i className="ti-shopping-cart" />
+              </div>
+              <ul className="side__icons">
+                <span>
+                  <i className="ti-search" />
+                </span>
+                <span>
+                  <i className="ti-heart" />
+                </span>
+                <span>
+                  <i className="ti-layout-slider" />
+                </span>
+              </ul>
             </div>
-            <div className="product">
-                <div className="img__container">
-                <img src="https://res.cloudinary.com/swizce/image/upload/v1610534024/product6_ridrxd.jpg" alt="" />
-                <div className="addCart">
-                    <i className="ti-shopping-cart" />
-                </div>
-                <ul className="side__icons">
-                    <span><i className="ti-search" /></span>
-                    <span><i className="ti-heart" /></span>
-                    <span><i className="ti-layout-slider" /></span>
-                </ul>
-                </div>
-                <div className="bottom">
-                <a href="#">Bambi Print Mini Backpack</a>
-                <div className="price">
-                    <span>$150</span>
-                </div>
-                </div>
+            <div className="bottom">
+              <a href="#">Bambi Print Mini Backpack</a>
+              <div className="price">
+                <span>$150</span>
+              </div>
             </div>
-            <div className="product">
-                <div className="img__container">
-                <img src="https://res.cloudinary.com/swizce/image/upload/v1610533570/product7_jfkluc.jpg" alt="" />
-                <div className="addCart">
-                    <i className="ti-shopping-cart" />
-                </div>
-                <ul className="side__icons">
-                    <span><i className="ti-search" /></span>
-                    <span><i className="ti-heart" /></span>
-                    <span><i className="ti-layout-slider" /></span>
-                </ul>
-                </div>
-                <div className="bottom">
-                <a href="#">Bambi Print Mini Backpack</a>
-                <div className="price">
-                    <span>$150</span>
-                </div>
-                </div>
+          </div>
+          <div className="product">
+            <div className="img__container">
+              <img
+                src="https://res.cloudinary.com/swizce/image/upload/v1617677878/products_tem/product9_jryhmf_z7ryvu.jpg"
+                alt=""
+              />
+              <div className="addCart">
+                <i className="ti-shopping-cart" />
+              </div>
+              <ul className="side__icons">
+                <span>
+                  <i className="ti-search" />
+                </span>
+                <span>
+                  <i className="ti-heart" />
+                </span>
+                <span>
+                  <i className="ti-layout-slider" />
+                </span>
+              </ul>
             </div>
-            <div className="product">
-                <div className="img__container">
-                <img src="https://res.cloudinary.com/swizce/image/upload/v1610534026/product10_nv4hj3.jpg" alt="" />
-                <div className="addCart">
-                    <i className="ti-shopping-cart" />
-                </div>
-                <ul className="side__icons">
-                    <span><i className="ti-search" /></span>
-                    <span><i className="ti-heart" /></span>
-                    <span><i className="ti-layout-slider" /></span>
-                </ul>
-                </div>
-                <div className="bottom">
-                <a href="#">Bambi Print Mini Backpack</a>
-                <div className="price">
-                    <span>$150</span>
-                </div>
-                </div>
+            <div className="bottom">
+              <a href="#">Bambi Print Mini Backpack</a>
+              <div className="price">
+                <span>$150</span>
+              </div>
             </div>
-            <div className="product">
-                <div className="img__container">
-                <img src="https://res.cloudinary.com/swizce/image/upload/v1610534026/product14_fxegrl.jpg" alt="" />
-                <div className="addCart">
-                    <i className="ti-shopping-cart" />
-                </div>
-                <ul className="side__icons">
-                    <span><i className="ti-search" /></span>
-                    <span><i className="ti-heart" /></span>
-                    <span><i className="ti-layout-slider" /></span>
-                </ul>
-                </div>
-                <div className="bottom">
-                <a href="#">Bambi Print Mini Backpack</a>
-                <div className="price">
-                    <span>$150</span>
-                </div>
-                </div>
+          </div>
+          <div className="product">
+            <div className="img__container">
+              <img
+                src="https://res.cloudinary.com/swizce/image/upload/v1617677878/products_tem/product3_uz8mxd_z01epu.jpg"
+                alt=""
+              />
+              <div className="addCart">
+                <i className="ti-shopping-cart" />
+              </div>
+              <ul className="side__icons">
+                <span>
+                  <i className="ti-search" />
+                </span>
+                <span>
+                  <i className="ti-heart" />
+                </span>
+                <span>
+                  <i className="ti-layout-slider" />
+                </span>
+              </ul>
             </div>
-            <div className="product">
-                <div className="img__container">
-                <img src="https://res.cloudinary.com/swizce/image/upload/v1610534025/product5_hb1iim.jpg" alt="" />
-                <div className="addCart">
-                    <i className="ti-shopping-cart" />
-                </div>
-                <ul className="side__icons">
-                    <span><i className="ti-search" /></span>
-                    <span><i className="ti-heart" /></span>
-                    <span><i className="ti-layout-slider" /></span>
-                </ul>
-                </div>
-                <div className="bottom">
-                <a href="#">Bambi Print Mini Backpack</a>
-                <div className="price">
-                    <span>$150</span>
-                </div>
-                </div>
+            <div className="bottom">
+              <a href="#">Bambi Print Mini Backpack</a>
+              <div className="price">
+                <span>$150</span>
+              </div>
             </div>
-            <div className="product">
-                <div className="img__container">
-                <img src="https://res.cloudinary.com/swizce/image/upload/v1610534024/product2_rnywnk.jpg" alt="" />
-                <div className="addCart">
-                    <i className="ti-shopping-cart" />
-                </div>
-                <ul className="side__icons">
-                    <span><i className="ti-search" /></span>
-                    <span><i className="ti-heart" /></span>
-                    <span><i className="ti-layout-slider" /></span>
-                </ul>
-                </div>
-                <div className="bottom">
-                <a href="#">Bambi Print Mini Backpack</a>
-                <div className="price">
-                    <span>$150</span>
-                </div>
-                </div>
+          </div>
+          <div className="product">
+            <div className="img__container">
+              <img
+                src="https://res.cloudinary.com/swizce/image/upload/v1617677878/products_tem/product7_jfkluc_ffddxe.jpg"
+                alt=""
+              />
+              <div className="addCart">
+                <i className="ti-shopping-cart" />
+              </div>
+              <ul className="side__icons">
+                <span>
+                  <i className="ti-search" />
+                </span>
+                <span>
+                  <i className="ti-heart" />
+                </span>
+                <span>
+                  <i className="ti-layout-slider" />
+                </span>
+              </ul>
             </div>
-            <div className="product">
-                <div className="img__container">
-                <img src="https://res.cloudinary.com/swizce/image/upload/v1610534026/product10_nv4hj3.jpg" alt="" />
-                <div className="addCart">
-                    <i className="ti-shopping-cart" />
-                </div>
-                <ul className="side__icons">
-                    <span><i className="ti-search" /></span>
-                    <span><i className="ti-heart" /></span>
-                    <span><i className="ti-layout-slider" /></span>
-                </ul>
-                </div>
-                <div className="bottom">
-                <a href="#">Bambi Print Mini Backpack</a>
-                <div className="price">
-                    <span>$150</span>
-                </div>
-                </div>
+            <div className="bottom">
+              <a href="#">Bambi Print Mini Backpack</a>
+              <div className="price">
+                <span>$150</span>
+              </div>
             </div>
-            <div className="product">
-                <div className="img__container">
-                <img src="https://res.cloudinary.com/swizce/image/upload/v1610534026/product12_aznyjk.jpg" alt="" />
-                <div className="addCart">
-                    <i className="ti-shopping-cart" />
-                </div>
-                <ul className="side__icons">
-                    <span><i className="ti-search" /></span>
-                    <span><i className="ti-heart" /></span>
-                    <span><i className="ti-layout-slider" /></span>
-                </ul>
-                </div>
-                <div className="bottom">
-                <a href="#">Bambi Print Mini Backpack</a>
-                <div className="price">
-                    <span>$150</span>
-                </div>
-                </div>
+          </div>
+          <div className="product">
+            <div className="img__container">
+              <img
+                src="https://res.cloudinary.com/swizce/image/upload/v1617677877/products_tem/product2_r8ts6g_lpob0m.jpg"
+                alt=""
+              />
+              <div className="addCart">
+                <i className="ti-shopping-cart" />
+              </div>
+              <ul className="side__icons">
+                <span>
+                  <i className="ti-search" />
+                </span>
+                <span>
+                  <i className="ti-heart" />
+                </span>
+                <span>
+                  <i className="ti-layout-slider" />
+                </span>
+              </ul>
             </div>
+            <div className="bottom">
+              <a href="#">Bambi Print Mini Backpack</a>
+              <div className="price">
+                <span>$150</span>
+              </div>
             </div>
-        </section>
+          </div>
+          <div className="product">
+            <div className="img__container">
+              <img
+                src="https://res.cloudinary.com/swizce/image/upload/v1617677877/products_tem/product5_ndgvhn_nmn9f7.jpg"
+                alt=""
+              />
+              <div className="addCart">
+                <i className="ti-shopping-cart" />
+              </div>
+              <ul className="side__icons">
+                <span>
+                  <i className="ti-search" />
+                </span>
+                <span>
+                  <i className="ti-heart" />
+                </span>
+                <span>
+                  <i className="ti-layout-slider" />
+                </span>
+              </ul>
+            </div>
+            <div className="bottom">
+              <a href="#">Bambi Print Mini Backpack</a>
+              <div className="price">
+                <span>$150</span>
+              </div>
+            </div>
+          </div>
+          <div className="product">
+            <div className="img__container">
+              <img
+                src="https://res.cloudinary.com/swizce/image/upload/v1617677877/products_tem/product10_oplnhc_sc5lpp.jpg"
+                alt=""
+              />
+              <div className="addCart">
+                <i className="ti-shopping-cart" />
+              </div>
+              <ul className="side__icons">
+                <span>
+                  <i className="ti-search" />
+                </span>
+                <span>
+                  <i className="ti-heart" />
+                </span>
+                <span>
+                  <i className="ti-layout-slider" />
+                </span>
+              </ul>
+            </div>
+            <div className="bottom">
+              <a href="#">Bambi Print Mini Backpack</a>
+              <div className="price">
+                <span>$150</span>
+              </div>
+            </div>
+          </div>
+          <div className="product">
+            <div className="img__container">
+              <img
+                src="https://res.cloudinary.com/swizce/image/upload/v1617677877/products_tem/product10_oplnhc_sc5lpp.jpg"
+                alt=""
+              />
+              <div className="addCart">
+                <i className="ti-shopping-cart" />
+              </div>
+              <ul className="side__icons">
+                <span>
+                  <i className="ti-search" />
+                </span>
+                <span>
+                  <i className="ti-heart" />
+                </span>
+                <span>
+                  <i className="ti-layout-slider" />
+                </span>
+              </ul>
+            </div>
+            <div className="bottom">
+              <a href="#">Bambi Print Mini Backpack</a>
+              <div className="price">
+                <span>$150</span>
+              </div>
+            </div>
+          </div>
+          <div className="product">
+            <div className="img__container">
+              <img
+                src="https://res.cloudinary.com/swizce/image/upload/v1617677877/products_tem/product4_qixtdj_st9kdr.jpg"
+                alt=""
+              />
+              <div className="addCart">
+                <i className="ti-shopping-cart" />
+              </div>
+              <ul className="side__icons">
+                <span>
+                  <i className="ti-search" />
+                </span>
+                <span>
+                  <i className="ti-heart" />
+                </span>
+                <span>
+                  <i className="ti-layout-slider" />
+                </span>
+              </ul>
+            </div>
+            <div className="bottom">
+              <a href="#">Bambi Print Mini Backpack</a>
+              <div className="price">
+                <span>$150</span>
+              </div>
+            </div>
+          </div>
+          <div className="product">
+            <div className="img__container">
+              <img
+                src="https://res.cloudinary.com/swizce/image/upload/v1617677877/products_tem/product12_aznyjk_bgwzaa.jpg"
+                alt=""
+              />
+              <div className="addCart">
+                <i className="ti-shopping-cart" />
+              </div>
+              <ul className="side__icons">
+                <span>
+                  <i className="ti-search" />
+                </span>
+                <span>
+                  <i className="ti-heart" />
+                </span>
+                <span>
+                  <i className="ti-layout-slider" />
+                </span>
+              </ul>
+            </div>
+            <div className="bottom">
+              <a href="#">Bambi Print Mini Backpack</a>
+              <div className="price">
+                <span>$150</span>
+              </div>
+            </div>
+          </div>
+          <div className="product">
+            <div className="img__container">
+              <img
+                src="https://res.cloudinary.com/swizce/image/upload/v1617677877/products_tem/product8_d9zy51_egsqbm.jpg"
+                alt=""
+              />
+              <div className="addCart">
+                <i className="ti-shopping-cart" />
+              </div>
+              <ul className="side__icons">
+                <span>
+                  <i className="ti-search" />
+                </span>
+                <span>
+                  <i className="ti-heart" />
+                </span>
+                <span>
+                  <i className="ti-layout-slider" />
+                </span>
+              </ul>
+            </div>
+            <div className="bottom">
+              <a href="#">Bambi Print Mini Backpack</a>
+              <div className="price">
+                <span>$150</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
         {/* Branding Section */}
         <section className="section brands">
                 <div className="title">
