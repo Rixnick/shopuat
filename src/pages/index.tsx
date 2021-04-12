@@ -118,7 +118,7 @@ const Home = () => {
                 <a href="#">View Collection →</a>
             </div> 
         </div>
-        {/* Promotion Section */}
+      {/* Promotion Section */}
       <section className="section promotion">
         <div className="title">
           <h2>Shop Collections</h2>
@@ -187,7 +187,6 @@ const Home = () => {
           </div>
         </div>
       </section>
-        {/* Product Section */}
              
       {/* Product Section */}
       <section className="section products">
